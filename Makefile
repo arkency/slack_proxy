@@ -6,7 +6,7 @@ install:
 	@bundle install --no-deployment --with test
 
 serve: ## Serve app at http://localhost:9292
-	@bundle exec rackup -Ilib
+	@bundle exec rackup
 
 test: ## Run unit tests
 	@bundle exec ruby -Ilib -Itest test/dpd_test.rb
