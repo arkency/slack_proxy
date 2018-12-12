@@ -6,7 +6,7 @@ It is assumed that you have and configured [AWS CLI](https://docs.aws.amazon.com
 
 ## Pushing to production
 
-    SLACK_USERNAME=panda SLACK_WEBHOOK_URL=http://hooks.slack.com/and_the_rest make deploy
+    make deploy
 
 ## Development
 
