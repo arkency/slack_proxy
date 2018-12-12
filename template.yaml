@@ -11,6 +11,10 @@ Resources:
       CodeUri: "./"
       MemorySize: 512
       Timeout: 30
+      Environment:
+        Variables:
+          SLACK_USERNAME:
+          SLACK_WEBHOOK_URL:
       Events:
         SlackProxyAPI:
             Type: Api
